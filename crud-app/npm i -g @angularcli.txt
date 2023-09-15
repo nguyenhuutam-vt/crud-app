@@ -1,0 +1,16 @@
+ npm i -g @angular/cli
+ng new hello ( tao thu muc )
+ 
+ ng serve -o ( giong npm start )
+ng add @angular/material 
+
+ng g c ten folder
+
+MatDialogModule, MatDialog dung để hiện thị hộp thông báo 
+
+mat-dialog-title	[Attr] Dialog title, applied to a heading element (e.g., <h1>, <h2>)
+<mat-dialog-content>	Primary scrollable content of the dialog.
+<mat-dialog-actions>	Container for action buttons at the bottom of the dialog. Button alignment can be controlled via the align attribute which can be set to end and center.
+mat-dialog-close	[Attr] Added to a <button>, makes the button close the dialog with an optional result from the bound value.
+
+mat-raised-button	Rectangular contained button w/ elevation
