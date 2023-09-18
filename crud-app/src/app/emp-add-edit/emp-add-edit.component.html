@@ -1,6 +1,7 @@
 <div mat-dialog-title>
   <h1>Employee Form</h1>
 </div>
+
 <form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
   <div mat-dialog-content class="content">
     <div class="row">
@@ -96,7 +97,9 @@
     </div>
   </div>
   <div mat-dialog-actions class="action">
-    <button mat-raised-button>Cancel</button>
-    <button mat-raised-button color="primary" type="submit">Save</button>
+    <button mat-raised-button [mat-dialog-close]="false">Cancel</button>
+    <button mat-raised-button color="primary" type="submit">
+      {{ data ? "Update" : "Save" }}
+    </button>
   </div>
 </form>

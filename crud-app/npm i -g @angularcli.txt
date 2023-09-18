@@ -14,3 +14,8 @@ mat-dialog-title	[Attr] Dialog title, applied to a heading element (e.g., <h1>, 
 mat-dialog-close	[Attr] Added to a <button>, makes the button close the dialog with an optional result from the bound value.
 
 mat-raised-button	Rectangular contained button w/ elevation
+
+ng g s services/employee
+
+Một trong những tính năng tuyệt vời của Angular form là Form Builder, nó giúp bạn tạo form model một cách nhanh chóng và tiện lợi. 
+Việc bạn phải làm là inject class FormBuilder vào class bạn muốn tạo form, và gọi các API như group , array , control để tạo form.
